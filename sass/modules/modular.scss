@@ -47,6 +47,7 @@ $colors: (
     transition: 0.5s;
     z-index: 4;
     background-color: color("darkPurple95");
+    position: fixed;
 }
 
 @mixin navli{

@@ -25,6 +25,7 @@ header nav ul {
   transition: 0.5s;
   z-index: 4;
   background-color: rgba(19, 0, 34, 0.95);
+  position: fixed;
 }
 
 header nav ul li {
@@ -52,7 +53,6 @@ header nav ul li:visited {
 
 header nav .showNav {
   top: 0;
-  position: fixed;
   list-style-type: none;
   position: absolute;
   padding: 1.3rem;
@@ -67,6 +67,7 @@ header nav .showNav {
   transition: 0.5s;
   z-index: 4;
   background-color: rgba(19, 0, 34, 0.95);
+  position: fixed;
 }
 
 header nav .showNav li {
