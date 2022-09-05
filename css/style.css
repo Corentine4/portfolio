@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  height: 65vh;
+}
+
+header nav {
+  margin: 2rem 0rem 0rem 0rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+header nav ul {
+  top: -10%;
+  list-style-type: none;
+  position: absolute;
+  padding: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 4;
+  background-color: rgba(19, 0, 34, 0.95);
+}
+
+header nav ul li {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+header nav ul li:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header nav ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+header nav ul li:visited {
+  color: #f7f7f7;
+}
+
+header nav .showNav {
+  top: 0;
+  position: fixed;
+  list-style-type: none;
+  position: absolute;
+  padding: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 4;
+  background-color: rgba(19, 0, 34, 0.95);
+}
+
+header nav .showNav li {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+header nav .showNav li:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header button {
+  float: right;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+  z-index: 5;
+}
+
+header button .burgerIcon {
+  width: 2rem;
+  cursor: pointer;
+}
+
+header #aboutMe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+header section {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header section .headerSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65rem;
+  z-index: 2;
+}
+
+header section .headerSection .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75rem;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section .headerSection .about .aboutPicture img {
+  width: 45rem;
+}
+
+header section .headerSection .about .aboutMe {
+  padding: 0 0 0 3rem;
+}
+
+header section .headerSection .about .aboutMe h1 {
+  font-style: italic;
+}
+
+header section .headerSection .about .aboutMe #description {
+  padding: .5rem 0rem 0rem 0rem;
+  text-align: justify;
+  font-weight: 350;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 6rem;
+  margin: 1.5rem 0rem 0rem 0rem;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons {
+  background: #e61679;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e61679), color-stop(100%, rgba(52, 34, 207, 0.5)), color-stop(100%, #554e8c), to(#a7a2cd));
+  background: linear-gradient(180deg, #e61679 0%, rgba(52, 34, 207, 0.5) 100%, #554e8c 100%, #a7a2cd 100%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons img {
+  width: 1rem;
+  display: block;
+  margin-left: 0;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header section .headerSection .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem 0rem 0rem 0rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 17rem;
+}
+
+header section .headerSection .contact .contactButtons {
+  border: solid #f7f7f7 1px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+header section .headerSection .contact .contactButtons a {
+  text-decoration: none;
+  color: #f7f7f7;
+  display: block;
+}
+
+header section .headerSection .contact .contactButtons a p {
+  padding: .5rem 1rem;
+  font-size: .9rem;
+}
+
+header section .headerSection .contact .contactButtons:visited {
+  color: #f7f7f7;
+}
+
+header section .headerSection .contact .contactButtons:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.firstSection {
+  height: 135vh;
+  display: contents;
+}
+
+.firstSection #skills {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.firstSection img {
+  z-index: 2;
+  position: absolute;
+}
+
+.firstSection .firstSectionContent {
+  z-index: 3;
+  position: relative;
+  width: 75vh;
+  margin: auto;
+  margin-top: 16rem;
+}
+
+.firstSection .firstSectionContent .scroll {
+  width: 24%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.firstSection .firstSectionContent .scroll h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.firstSection .firstSectionContent .scroll .containerArrow {
+  border: solid 1px;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstSection .firstSectionContent .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer {
+  width: 45%;
+  text-align: center;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer .skillsIcons {
+  padding: 2.5rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer .skillsIcons .iconifySkills {
+  font-size: 3rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #130022;
+  color: #f7f7f7;
+}
+
+body p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body h2 {
+  font-weight: 500;
+}
+
+body h1::-moz-selection, body h2::-moz-selection, body h3::-moz-selection, body h4::-moz-selection, body h5::-moz-selection, body h6::-moz-selection, body p::-moz-selection, body a::-moz-selection, body ul::-moz-selection, body li::-moz-selection, body img::-moz-selection {
+  background: #3422CF;
+}
+
+body h1::selection, body h2::selection, body h3::selection, body h4::selection, body h5::selection, body h6::selection, body p::selection, body a::selection, body ul::selection, body li::selection, body img::selection {
+  background: #3422CF;
+}
+/*# sourceMappingURL=style.css.map */

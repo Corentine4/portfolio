@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corentine Renuart portfolio</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="javascript/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li>Projects</li>
+            </ul>
+            <button>
+                <img src="./medias/burger.svg" alt="Burger menu" role="navigation" class="burgerIcon">
+            </button>
+        </nav>
+        <span id="aboutMe">Anchor About me</span>
+        <section>
+            <div class="headerSection">
+                <div class="about">
+                    <div class="aboutPicture">
+                        <img src="./medias/picture.png">
+                    </div>
+                    <div class="aboutMe">
+                        <h1>Hello, I am Corentine!</h1>
+                        <p id="description">After my design studies, I took a 7 months intensive bootcamp to learn frontend web development. 
+                        I did my end-of-training internship in a Brussels company, where I was responsible for designing and improve the user experience of the web interface of their application.
+                        I then coded the solutions in HTML5, Sass, Bootstrap and Javascript.
+                        Now I'm looking for a new opportunity as a frontend developer or a UI/UX designer.</p>
+                        <div class="contact">
+                            <div class="contactButtons">
+                                <a href = "mailto: renuart.corentine@gmail.com">
+                                    <p>Contact me</p>
+                                </a>
+                            </div>
+                            <div class="contactButtons">
+                                <a href="./medias/CV-Renuart-Corentine.pdf" download="CV-Corentine-Renuart">
+                                    <p>Download my CV</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="socialNetworks">
+                            <div class="containerIcons">
+                                <a href="https://github.com/Corentine4" target="_blank">
+                                    <img src="/medias/github.svg">
+                                </a>
+                            </div>
+                            <div class="containerIcons">
+                                <a href="https://www.linkedin.com/in/corentine-renuart/" target="_blank">
+                                    <img src="/medias/linkedin.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="firstSection">
+        <span id="skills">Anchor skills</span>
+
+        <img src="./medias/sectionBackground.svg" id="backgroundImage"></img>
+        <div class="firstSectionContent">
+
+            <div class="scroll">
+                <h2>About my skills</h2>
+                <div class="containerArrow">
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsContainer">
+                    <h3>Web development</h3>
+                    <div class="skillsIcons">
+                        <iconify-icon icon="akar-icons:html-fill" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="akar-icons:css-fill" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="akar-icons:sass-fill" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="fluent:javascript-16-filled" class="iconifySkills"></iconify-icon>
+                    </div>
+                    <div class="skillsIcons">
+                        <iconify-icon icon="bi:wordpress" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="akar-icons:bootstrap-fill" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="fa6-brands:git" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="cib:npm" class="iconifySkills"></iconify-icon>
+                    </div>
+                </div>
+                <div class="skillsContainer">
+                    <h3>Graphic design</h3>
+                    <div class="skillsIcons">
+                        <iconify-icon icon="simple-icons:adobephotoshop" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="simple-icons:adobeillustrator" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="simple-icons:adobeindesign" class="iconifySkills"></iconify-icon>
+                    </div>
+                    <div class="skillsIcons">
+                        <iconify-icon icon="ci:adobe-xd" class="iconifySkills"></iconify-icon>
+                        <iconify-icon icon="akar-icons:figma-fill" class="iconifySkills"></iconify-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>

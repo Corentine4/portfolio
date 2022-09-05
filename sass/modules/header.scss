@@ -1,0 +1,162 @@
+@import './modular';
+
+header{
+    height: 65vh;
+
+    nav{
+        margin: 2rem 0rem 0rem 0rem;
+        align-content: center;
+        width: 100%;
+
+        ul{
+            top: -10%;
+            @include navul;
+
+            li{
+                @include navli;
+                @include buttonAnimated;
+
+                a{
+                    color: color("light");
+                    text-decoration: none;
+                }
+                &:visited{
+                    color: color("light");
+                }
+            }
+        }
+        
+        .showNav{
+            top: 0;
+            position: fixed;
+            @include navul;
+        
+            li{
+                @include navli;
+                @include buttonAnimated;
+            }
+        }
+    }
+
+    button{
+        float: right;
+        border: none;
+        background: none;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        position: fixed;
+        z-index: 5;
+
+        .burgerIcon{
+            width: 2rem;
+            cursor: pointer;
+        }
+    }
+
+    #aboutMe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+
+    section{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .headerSection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 65rem;
+            z-index: 2;
+    
+            .about{
+                display: flex;
+                width: 75rem;
+                margin: auto;
+                align-items: center;
+
+                .aboutPicture{
+
+                    img{
+                        width: 45rem;
+                    }
+                }
+    
+                .aboutMe{
+                    padding: 0 0 0 3rem;
+
+                    h1{
+                        font-style: italic;
+                    }
+        
+                    #description{
+                        padding: .5rem 0rem 0rem 0rem;
+                        text-align: justify;
+                        font-weight: 350;
+                    }
+    
+                    .socialNetworks{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 6rem;
+                        margin: 1.5rem 0rem 0rem 0rem;
+            
+                        .containerIcons{
+                            @include purpleGradient50;
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            border-radius: 50%;
+                            display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+    
+                            img{
+                                width: 1rem;
+                                display: block;
+                                margin-left: 0;
+                            }
+
+                            @include buttonAnimated;
+                        }
+                    }
+                }
+            }
+    
+            .contact{
+                display: flex;
+                padding: 1.5rem 0rem 0rem 0rem;
+                justify-content: space-between;
+                width: 17rem;
+    
+                .contactButtons{
+                    border: solid color("light") 1px;
+                    border-radius: 2rem;
+                    cursor: pointer;
+    
+                    a{
+                        text-decoration: none;
+                        color: color("light");
+                        display: block;
+    
+                        p{
+                            padding: .5rem 1rem;
+                            font-size: .9rem;
+                        }
+                    }
+                    &:visited{
+                        color: color("light");
+                    }
+                    
+                    @include buttonAnimated;
+                }
+            }
+        }
+    }
+}

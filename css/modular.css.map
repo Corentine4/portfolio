@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/modules/modular.scss"
+    ],
+    "names": [],
+    "file": "modular.css"
+}

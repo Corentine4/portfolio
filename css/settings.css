@@ -1,0 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(243, 146, 0, 0.1);
+}
+/*# sourceMappingURL=settings.css.map */

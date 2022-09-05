@@ -1,0 +1,251 @@
+header {
+  height: 65vh;
+}
+
+header nav {
+  margin: 2rem 0rem 0rem 0rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+}
+
+header nav ul {
+  top: -10%;
+  list-style-type: none;
+  position: absolute;
+  padding: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 4;
+  background-color: rgba(19, 0, 34, 0.95);
+}
+
+header nav ul li {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+header nav ul li:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header nav ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+header nav ul li:visited {
+  color: #f7f7f7;
+}
+
+header nav .showNav {
+  top: 0;
+  position: fixed;
+  list-style-type: none;
+  position: absolute;
+  padding: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 4;
+  background-color: rgba(19, 0, 34, 0.95);
+}
+
+header nav .showNav li {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+header nav .showNav li:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header button {
+  float: right;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  position: fixed;
+  z-index: 5;
+}
+
+header button .burgerIcon {
+  width: 2rem;
+  cursor: pointer;
+}
+
+header #aboutMe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+header section {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header section .headerSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65rem;
+  z-index: 2;
+}
+
+header section .headerSection .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75rem;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section .headerSection .about .aboutPicture img {
+  width: 45rem;
+}
+
+header section .headerSection .about .aboutMe {
+  padding: 0 0 0 3rem;
+}
+
+header section .headerSection .about .aboutMe h1 {
+  font-style: italic;
+}
+
+header section .headerSection .about .aboutMe #description {
+  padding: .5rem 0rem 0rem 0rem;
+  text-align: justify;
+  font-weight: 350;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 6rem;
+  margin: 1.5rem 0rem 0rem 0rem;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons {
+  background: #e61679;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e61679), color-stop(100%, rgba(52, 34, 207, 0.5)), color-stop(100%, #554e8c), to(#a7a2cd));
+  background: linear-gradient(180deg, #e61679 0%, rgba(52, 34, 207, 0.5) 100%, #554e8c 100%, #a7a2cd 100%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons img {
+  width: 1rem;
+  display: block;
+  margin-left: 0;
+}
+
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header section .headerSection .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem 0rem 0rem 0rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 17rem;
+}
+
+header section .headerSection .contact .contactButtons {
+  border: solid #f7f7f7 1px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+header section .headerSection .contact .contactButtons a {
+  text-decoration: none;
+  color: #f7f7f7;
+  display: block;
+}
+
+header section .headerSection .contact .contactButtons a p {
+  padding: .5rem 1rem;
+  font-size: .9rem;
+}
+
+header section .headerSection .contact .contactButtons:visited {
+  color: #f7f7f7;
+}
+
+header section .headerSection .contact .contactButtons:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=header.css.map */

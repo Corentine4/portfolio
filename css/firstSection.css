@@ -1,0 +1,90 @@
+.firstSection {
+  height: 135vh;
+  display: contents;
+}
+
+.firstSection #skills {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.firstSection img {
+  z-index: 2;
+  position: absolute;
+}
+
+.firstSection .firstSectionContent {
+  z-index: 3;
+  position: relative;
+  width: 75vh;
+  margin: auto;
+  margin-top: 16rem;
+}
+
+.firstSection .firstSectionContent .scroll {
+  width: 24%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.firstSection .firstSectionContent .scroll h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.firstSection .firstSectionContent .scroll .containerArrow {
+  border: solid 1px color("white");
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstSection .firstSectionContent .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer {
+  width: 45%;
+  text-align: center;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer .skillsIcons {
+  padding: 2.5rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.firstSection .firstSectionContent .skills .skillsContainer .skillsIcons .iconifySkills {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=firstSection.css.map */
