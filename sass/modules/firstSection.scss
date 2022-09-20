@@ -2,6 +2,7 @@
     height: 135vh;
     display: contents;
 
+    // Anchor
     #skills{
         position: absolute;
         left: 0;
@@ -22,24 +23,14 @@
     
         .scroll{
             width: 24%;
-            text-align: center;
-            display: flex;
-            justify-content: space-between;
-            margin: auto;
+            @include scrollText;
 
             h2{
-                font-size: 1.25rem;
-                font-weight: 400;
+                @include scrollH2;
             }
 
             .containerArrow{
-                border: solid 1px color("white");
-                height: 1.5rem;
-                width: 1.5rem;
-                border-radius: 50%;
-                display : flex;
-                justify-content: center;
-                align-items: center;
+                @include containerArrow;
             }
         }
     

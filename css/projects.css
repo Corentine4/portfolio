@@ -1,0 +1,98 @@
+.projects {
+  margin-top: 22rem;
+  z-index: 3;
+}
+
+.projects #projects {
+  position: absolute;
+  margin-top: 12rem;
+  opacity: 0;
+}
+
+.projects .scroll {
+  width: 10.25%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.projects .scroll h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.projects .scroll .containerArrow {
+  border: solid 1px;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .photoPortfolio {
+  width: 65%;
+  margin: auto;
+  margin-top: 18rem;
+}
+
+.projects .photoPortfolio h3 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.projects .photoPortfolio .videos {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.projects .photoPortfolio p {
+  text-align: center;
+}
+
+.projects .photoPortfolio .projectsLinksContainer {
+  width: 13rem;
+  margin: 2rem auto;
+  background: #e61679;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e61679), color-stop(100%, #3422cf), color-stop(100%, #554e8c), to(#a7a2cd));
+  background: linear-gradient(180deg, #e61679 0%, #3422cf 100%, #554e8c 100%, #a7a2cd 100%);
+  border: solid #f7f7f7 1px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.projects .photoPortfolio .projectsLinksContainer a {
+  text-decoration: none;
+  color: #f7f7f7;
+  display: block;
+}
+
+.projects .photoPortfolio .projectsLinksContainer a p {
+  padding: .5rem 1rem;
+  font-size: .9rem;
+}
+
+.projects .photoPortfolio .projectsLinksContainer:visited {
+  color: #f7f7f7;
+}
+
+.projects .photoPortfolio .projectsLinksContainer:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=projects.css.map */

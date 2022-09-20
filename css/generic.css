@@ -1,0 +1,33 @@
+.scroll {
+  width: 24%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.scroll h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.scroll .containerArrow {
+  border: solid 1px color("white");
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=generic.css.map */
