@@ -198,10 +198,11 @@ header section .headerSection .about .aboutMe .socialNetworks .containerIcons {
   cursor: pointer;
 }
 
-header section .headerSection .about .aboutMe .socialNetworks .containerIcons img {
+header section .headerSection .about .aboutMe .socialNetworks .containerIcons .iconifyAboutme {
   width: 1rem;
   display: block;
   margin-left: 0;
+  color: #f7f7f7;
 }
 
 header section .headerSection .about .aboutMe .socialNetworks .containerIcons:hover {

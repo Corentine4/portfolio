@@ -117,10 +117,11 @@ header{
                             align-items: center;
                             cursor: pointer;
     
-                            img{
+                            .iconifyAboutme{
                                 width: 1rem;
                                 display: block;
                                 margin-left: 0;
+                                color: color("light");
                             }
 
                             @include buttonAnimated;
