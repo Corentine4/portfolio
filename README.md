@@ -1,4 +1,5 @@
 # photoPortfolio
+<img src="medias/website.png" alt="Website"/>
 👉 Work in progress
 <div align="center"><a href="https://corentine4.github.io/portfolio/">Deploy</a></div>  
 
@@ -14,5 +15,3 @@
 - CSS3 / Sass
 - Javascript
 - Iconify
-
-## Demo  
