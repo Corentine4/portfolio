@@ -4,10 +4,10 @@
 <div align="center"><a href="https://corentine4.github.io/portfolio/">Deploy</a></div>  
 
 ## To do
-- [x] Responsive (phone and tablets)
-- [x] Add some projects
-- [x] Add a footer
-- [x] Add animations
+- [ ] Responsive (phone and tablets)
+- [ ] Add some projects
+- [ ] Add a footer
+- [ ] Add animations
 
 ## Technologies and toolkits
 
