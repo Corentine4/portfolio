@@ -46,11 +46,17 @@
         }
 
         .projectsLinksContainer{
-            width: 13rem;
-            margin: 2rem auto;
-            @include purpleGradient;
-            @include buttons;
-            @include buttonAnimated;
+            display: flex;
+            width: 24rem;
+            margin: auto;
+
+            .projectsLinks{
+                width: 9rem;
+                margin: 2rem auto;
+                @include purpleGradient;
+                @include buttons;
+                @include buttonAnimated;
+            }
         }
     }
 }
